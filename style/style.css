@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+li{
+    list-style: none;
+}
+
+/* hero */
+
+.hero{
+    height: 100vh;
+    padding: 41px 0 71px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("../img/Hero-bg.png") no-repeat center;
+    background-size: cover;
+}
+
+
+.hero__title{  
+    font-family: 'Bebas Neue', cursive;
+    Font-size: 60px;
+    Line-height: 70px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    Letter-spacing: 5.70937px;
+    color: #ffffff;
+}
+
+.sub__title{
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.hero__scroll{
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    color: #ffffff;
+}
+
+/* footer */
+
+
+
+.pt{
+    padding-top: 38px;
+}
+
+
+.footer{
+    background-color: #141A20;
+}
+
+.footer__wrapper{
+    display: grid;
+    grid-template-columns: 2.7fr 1fr 1fr 1fr 2fr 1.5fr;
+    padding: 41px 0 50px;}
+
+.footer__desc{
+    max-width: 250px;
+    margin-top: 16px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #ffffff;
+}
+
+.footer__subtitle{
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+.footer__link{
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.footer__info{
+    max-width: 141px;
+}
+
+.footer__info-item{
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer__info li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.footer__socials{
+    display: flex;
+    max-width: 100px;
+    justify-content: space-between;
+}
+
+.footer__socials i{
+    color: #ffffff;
+}
+
+.footer__socials i:hover{
+    color: #00a4e5
+    ;
+}
